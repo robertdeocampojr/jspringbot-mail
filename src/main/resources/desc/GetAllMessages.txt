@@ -1,0 +1,8 @@
+Get all mail messages in a specified folder.
+
+
+*Examples:*
+| Open Mail Session     |   imaps
+| Set Mail Auth         |   imap.gmail.com  |  test@gmail.com  | test1234
+| Set Mail Folder       |   INBOX
+| ${messages} =         |   Get All Messages

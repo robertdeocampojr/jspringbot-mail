@@ -1,0 +1,8 @@
+Get a specific mail message in a specified folder by searching mail's subject.
+
+
+*Examples:*
+| Open Mail Session     |   imaps
+| Set Mail Auth         |   imap.gmail.com  |  test@gmail.com  | test1234
+| Set Mail Folder       |   INBOX
+| ${message} =         |   Get Message By Subject      |   Welcome!

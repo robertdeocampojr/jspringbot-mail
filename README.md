@@ -1,7 +1,19 @@
-jspringbot-json [![Build Status](https://travis-ci.org/jspringbot/jspringbot-json.svg?branch=master)](https://travis-ci.org/jspringbot/jspringbot-json)
-====
-JSpringBot Config Library
+# Project Title
 
-`mvn clean install`
+"jspringbot-mail" - This is a supporting library for jspringbot to use JavaMail
 
-`mvn clean install -DskipTests`
+## Getting Started
+    <dependency>
+      <groupId>org.jspringbot</groupId>
+      <artifactId>jspringbot-mail</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+### Prerequisites
+
+Your project is using jspringbot libraries.
+
+### Installing
+    Open Mail Session   imaps
+    Set Mail Auth       imap.gmail.com      test@gmail.com     test123
+    Set Mail Folder     INBOX

@@ -1,0 +1,6 @@
+Specify to which mail host to connect and providing user credentials.
+
+
+*Examples:*
+| Open Mail Session     |   imaps
+| Set Mail Auth         |   imap.gmail.com  |  test@gmail.com  | test1234

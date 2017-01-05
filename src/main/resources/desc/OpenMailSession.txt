@@ -1,0 +1,5 @@
+Open mail session by providing a protocol either imaps or pop3.
+
+
+*Examples:*
+| Open Mail Session    | imaps |
